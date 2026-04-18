@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1p-cpu.github.io/c-suite.co/sitemap.xml

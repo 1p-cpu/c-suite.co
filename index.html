@@ -1013,6 +1013,19 @@ footer {
   gtag('js', new Date());
   gtag('config', 'G-Y70062NC23');
 </script>
+<style id="mobile-header-fix">
+/* --- モバイルヘッダー修正 --- */
+@media (max-width: 900px){
+  #mainHeader nav .nav-links{display:none !important;}
+  #mainHeader{gap:12px;}
+  #mainHeader .logo-name{white-space:nowrap;}
+  #mainHeader .btn-red{white-space:nowrap;}
+}
+@media (max-width: 420px){
+  #mainHeader .logo-sub,#mainHeader .logo-sep{display:none;}
+  #mainHeader .btn-red{padding:8px 14px;font-size:10px;}
+}
+</style>
 </head>
 <body>
 

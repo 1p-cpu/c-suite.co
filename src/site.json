@@ -1,0 +1,44 @@
+{
+  "name": "C-suite & Co.",
+  "name_en": "中小企業未来経営CXO",
+  "url": "https://c-suitez.com/",
+  "contact_form_url": "https://forms.gle/CQHFz9uTHgPUe3CM7",
+  "vars": {
+    "REP_NAME": "東 貴志",
+    "REP_KANA": "あずま たかし",
+    "CTAX_URL": "https://csuite-tax.com/",
+    "ZAKU_URL": "https://zakutorin.jp/",
+    "LP_CXO": "https://1p-cpu.github.io/csuite-cxo/",
+    "LP_FUND": "https://1p-cpu.github.io/csuite-fund/",
+    "TEL": "03-6322-0964",
+    "TEL_LINK": "0363220964",
+    "MAIL": "info@c-suitez.com"
+  },
+  "nav": [
+    { "label": "サービス", "path": "/services/" },
+    { "label": "会社概要", "path": "/company/" },
+    { "label": "代表プロフィール", "path": "/profile/" },
+    { "label": "FAQ", "path": "/faq/" },
+    { "label": "無料相談を予約する", "path": "/contact/", "cta": true }
+  ],
+  "footer": {
+    "company": [
+      { "label": "会社概要", "path": "/company/" },
+      { "label": "代表プロフィール", "path": "/profile/" },
+      { "label": "よくあるご質問", "path": "/faq/" },
+      { "label": "お問い合わせ・無料相談", "path": "/contact/" },
+      { "label": "プライバシーポリシー", "path": "/privacy/" }
+    ],
+    "services": [
+      { "label": "サービス一覧", "path": "/services/" },
+      { "label": "パートナーCXO伴走支援", "path": "/services/cxo/" },
+      { "label": "資金調達支援", "path": "/services/funding/" },
+      { "label": "税務顧問（法人・個人・C-Tax Start Pack）", "path": "/services/tax/" },
+      { "label": "管理体制構築・上場準備・承継設計", "path": "/services/governance/" }
+    ],
+    "related": [
+      { "label": "東貴志公認会計士税理士事務所（税務・会計）", "path": "https://csuite-tax.com/" },
+      { "label": "ザクトリン合同会社", "path": "https://zakutorin.jp/" }
+    ]
+  }
+}

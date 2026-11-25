@@ -1,7 +1,7 @@
 /* GA4 計測（C-suite グループ共通：csuite-tax.com / c-suitez.com / zakutorin.jp）
  * - 3サイトで同一測定IDを使い、クロスドメイン（linker）でサイト間の回遊を1ユーザーとして追跡
  * - 問い合わせ導線のクリックをイベント化
- *     generate_lead    : 問い合わせフォーム（Googleフォーム）へのクリック ← キーイベント
+ *     generate_lead    : 問い合わせフォーム（Googleフォーム）・予約（TimeRex）へのクリック ← キーイベント
  *     phone_click      : 電話リンク（tel:）                                  ← キーイベント
  *     email_click      : メールリンク（mailto:）                             ← キーイベント
  *     lp_click         : サービスLP（github.io / chatgpt.site）へのクリック
@@ -39,6 +39,8 @@
 
     if (/forms\.gle|docs\.google\.com\/forms/.test(a.href)) {
       send('generate_lead', a, { method: 'google_form' });
+    } else if (/timerex\.net/.test(host)) {
+      send('generate_lead', a, { method: 'timerex' });
     } else if (href.indexOf('tel:') === 0) {
       send('phone_click', a, { method: 'tel' });
     } else if (href.indexOf('mailto:') === 0) {

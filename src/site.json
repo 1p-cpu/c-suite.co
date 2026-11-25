@@ -33,7 +33,7 @@
       { "label": "サービス一覧", "path": "/services/" },
       { "label": "パートナーCXO伴走支援", "path": "/services/cxo/" },
       { "label": "資金調達支援", "path": "/services/funding/" },
-      { "label": "税務顧問（法人・個人・C-Tax Start Pack）", "path": "/services/tax/" },
+      { "label": "税務顧問（法人・個人・一人法人）", "path": "/services/tax/" },
       { "label": "管理体制構築・上場準備・承継設計", "path": "/services/governance/" }
     ],
     "related": [

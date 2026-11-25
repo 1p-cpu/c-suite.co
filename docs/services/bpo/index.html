@@ -59,6 +59,9 @@
 .bpo-scroll-hint{display:none;font-size:12px;color:var(--muted);margin-bottom:8px}
 @media (max-width:780px){.bpo-scroll-hint{display:block}}
 .bpo-plan td:not(:first-child),.bpo-plan th{text-align:center;white-space:nowrap}
+.bpo-plan .bpo-std{background:var(--navy);color:#fff}
+.bpo-plan td:nth-child(3){background:rgba(31,58,95,.06);font-weight:600}
+.bpo-badge{display:block;font-size:11px;font-weight:500;letter-spacing:.08em;color:#fff;opacity:.85;margin-top:2px}
 .page-hero--dark .btn-ghost{color:#fff;border-color:rgba(255,255,255,.4)}
 .page-hero--dark .btn-ghost:hover{background:#fff;color:var(--navy);border-color:#fff}
 </style>
@@ -160,14 +163,14 @@
     <div class="section-head">
       <span class="sec-label">Plans &amp; Pricing</span>
       <h2 class="section-title">3つのプラン</h2>
-      <p class="section-sub">プランは「お任せいただく機能の範囲」で分かれています。処理量の目安は全プラン共通です。</p>
+      <p class="section-sub">プランは「お任せいただく機能の範囲」で分かれています。処理量の目安は全プラン共通です。<br class="pc-br" />経理実務に加え、資金繰り・予実・月次レポートまでを整える Management を標準プランとしています。</p>
     </div>
     <p class="bpo-scroll-hint">表は横にスクロールできます →</p>
     <div class="table-wrap">
       <table class="price-table bpo-plan">
-        <thead><tr><th></th><th>Essential</th><th>Management</th><th>Executive</th></tr></thead>
+        <thead><tr><th></th><th>Essential</th><th class="bpo-std">Management<span class="bpo-badge">標準プラン</span></th><th>Executive</th></tr></thead>
         <tbody>
-          <tr><td>月額（税別）</td><td class="price">150,000円〜</td><td class="price">300,000円〜</td><td class="price">500,000円〜</td></tr>
+          <tr><td>月額（税別）</td><td class="price">150,000円〜</td><td class="price">250,000円〜</td><td class="price">500,000円〜</td></tr>
           <tr><td>初期構築費（税別）</td><td class="price">300,000円〜</td><td class="price">500,000円〜</td><td class="price">1,000,000円〜</td></tr>
           <tr><td>経理実務・請求書発行・入金消込・支払データ作成・月次締め</td><td>●</td><td>●</td><td>●</td></tr>
           <tr><td>13週資金繰り表</td><td>—</td><td>●</td><td>●</td></tr>

@@ -15,30 +15,86 @@
     "MAIL": "info@c-suitez.com"
   },
   "nav": [
-    { "label": "サービス", "path": "/services/" },
-    { "label": "会社概要", "path": "/company/" },
-    { "label": "代表プロフィール", "path": "/profile/" },
-    { "label": "FAQ", "path": "/faq/" },
-    { "label": "無料相談を予約する", "path": "/contact/", "cta": true }
+    {
+      "label": "サービス",
+      "path": "/services/"
+    },
+    {
+      "label": "会社概要",
+      "path": "/company/"
+    },
+    {
+      "label": "代表プロフィール",
+      "path": "/profile/"
+    },
+    {
+      "label": "FAQ",
+      "path": "/faq/"
+    },
+    {
+      "label": "無料相談を予約する",
+      "path": "/contact/",
+      "cta": true
+    }
   ],
   "footer": {
     "company": [
-      { "label": "会社概要", "path": "/company/" },
-      { "label": "代表プロフィール", "path": "/profile/" },
-      { "label": "よくあるご質問", "path": "/faq/" },
-      { "label": "お問い合わせ・無料相談", "path": "/contact/" },
-      { "label": "プライバシーポリシー", "path": "/privacy/" }
+      {
+        "label": "会社概要",
+        "path": "/company/"
+      },
+      {
+        "label": "代表プロフィール",
+        "path": "/profile/"
+      },
+      {
+        "label": "よくあるご質問",
+        "path": "/faq/"
+      },
+      {
+        "label": "お問い合わせ・無料相談",
+        "path": "/contact/"
+      },
+      {
+        "label": "プライバシーポリシー",
+        "path": "/privacy/"
+      }
     ],
     "services": [
-      { "label": "サービス一覧", "path": "/services/" },
-      { "label": "パートナーCXO伴走支援", "path": "/services/cxo/" },
-      { "label": "資金調達支援", "path": "/services/funding/" },
-      { "label": "税務顧問（法人・個人・一人法人）", "path": "/services/tax/" },
-      { "label": "管理体制構築・上場準備・承継設計", "path": "/services/governance/" }
+      {
+        "label": "サービス一覧",
+        "path": "/services/"
+      },
+      {
+        "label": "パートナーCXO伴走支援",
+        "path": "/services/cxo/"
+      },
+      {
+        "label": "資金調達支援",
+        "path": "/services/funding/"
+      },
+      {
+        "label": "管理部門BPO",
+        "path": "/services/bpo/"
+      },
+      {
+        "label": "税務顧問（法人・個人・一人法人）",
+        "path": "/services/tax/"
+      },
+      {
+        "label": "管理体制構築・上場準備・承継設計",
+        "path": "/services/governance/"
+      }
     ],
     "related": [
-      { "label": "東貴志公認会計士税理士事務所（税務・会計）", "path": "https://csuite-tax.com/" },
-      { "label": "ザクトリン合同会社", "path": "https://zakutorin.jp/" }
+      {
+        "label": "東貴志公認会計士税理士事務所（税務・会計）",
+        "path": "https://csuite-tax.com/"
+      },
+      {
+        "label": "ザクトリン合同会社",
+        "path": "https://zakutorin.jp/"
+      }
     ]
   }
 }
